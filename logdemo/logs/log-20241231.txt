@@ -1,0 +1,21 @@
+2024-12-31 11:02:43.324 +07:00 [INF] Application has started.
+2024-12-31 11:02:43.689 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-12-31 11:02:43.853 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 11:02:43.858 +07:00 [INF] Hosting environment: Development
+2024-12-31 11:02:43.858 +07:00 [INF] Content root path: C:\Users\khacm\source\repos\logdemo\logdemo
+2024-12-31 11:02:44.036 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-31 11:02:44.036 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_vs/browserLink - null null
+2024-12-31 11:02:44.037 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 359.3655ms
+2024-12-31 11:02:44.039 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.1538ms
+2024-12-31 11:02:44.073 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8973ms
+2024-12-31 11:02:44.190 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-12-31 11:02:44.197 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1611ms
+2024-12-31 11:02:51.291 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44308/WeatherForecast - null null
+2024-12-31 11:02:51.299 +07:00 [INF] Executing endpoint 'logdemo.Controllers.WeatherForecastController.Get (logdemo)'
+2024-12-31 11:02:51.315 +07:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[logdemo.WeatherForecast] Get() on controller logdemo.Controllers.WeatherForecastController (logdemo).
+2024-12-31 11:02:51.377 +07:00 [INF] Executing action method logdemo.Controllers.WeatherForecastController.Get (logdemo) - Validation state: "Valid"
+2024-12-31 11:02:51.381 +07:00 [INF] Executed action method logdemo.Controllers.WeatherForecastController.Get (logdemo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3456ms.
+2024-12-31 11:02:51.386 +07:00 [INF] Executing ObjectResult, writing value of type 'logdemo.WeatherForecast[]'.
+2024-12-31 11:02:51.411 +07:00 [INF] Executed action logdemo.Controllers.WeatherForecastController.Get (logdemo) in 93.068ms
+2024-12-31 11:02:51.411 +07:00 [INF] Executed endpoint 'logdemo.Controllers.WeatherForecastController.Get (logdemo)'
+2024-12-31 11:02:51.411 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44308/WeatherForecast - 200 null application/json; charset=utf-8 120.4352ms
